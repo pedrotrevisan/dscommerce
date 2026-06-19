@@ -1,8 +1,8 @@
 INSERT INTO tb_role (authority) VALUES ('ROLE_OPERATOR');
 INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
 
-INSERT INTO tb_user (name, email, phone, birth_date, password) VALUES ('Maria Brown', 'maria@gmail.com', '11912341234', '2001-07-25', '$2a$10$nt4I9GVb2sEfMgEQGVoqme.vdLBFnpjVCX9KMJjH5hOeMSFQqW0bm');
-INSERT INTO tb_user (name, email, phone, birth_date, password) VALUES ('Alex Green', 'alex@gmail.com', '11982842844', '1987-12-13', '$2a$10$nt4I9GVb2sEfMgEQGVoqme.vdLBFnpjVCX9KMJjH5hOeMSFQqW0bm');
+INSERT INTO tb_user (name, email, phone, birth_date, password) VALUES ('Maria Brown', 'maria@gmail.com', '11912341234', '2001-07-25', '$2b$12$gL/70mESwwuCqnO0XWCEbOnZX5WycCrSZ3HBmdMWrhAXMLtYa1ZZC');
+INSERT INTO tb_user (name, email, phone, birth_date, password) VALUES ('Alex Green', 'alex@gmail.com', '11982842844', '1987-12-13', '$2b$12$gL/70mESwwuCqnO0XWCEbOnZX5WycCrSZ3HBmdMWrhAXMLtYa1ZZC');
 
 INSERT INTO tb_user_role (user_id, role_id) VALUES (1, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 1);
